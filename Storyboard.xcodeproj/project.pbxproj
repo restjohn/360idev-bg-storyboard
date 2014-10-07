@@ -21,6 +21,7 @@
 		7D77FE4A19AA9522001CF6B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D77FE2C19AA9522001CF6B2 /* UIKit.framework */; };
 		7D77FE5219AA9522001CF6B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D77FE5019AA9522001CF6B2 /* InfoPlist.strings */; };
 		7D77FE5419AA9522001CF6B2 /* StoryboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D77FE5319AA9522001CF6B2 /* StoryboardTests.m */; };
+		7D77FE5F19AA9833001CF6B2 /* GreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D77FE5E19AA9833001CF6B2 /* GreenViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7D77FE4F19AA9522001CF6B2 /* StoryboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryboardTests-Info.plist"; sourceTree = "<group>"; };
 		7D77FE5119AA9522001CF6B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7D77FE5319AA9522001CF6B2 /* StoryboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardTests.m; sourceTree = "<group>"; };
+		7D77FE5D19AA9833001CF6B2 /* GreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenViewController.h; sourceTree = "<group>"; };
+		7D77FE5E19AA9833001CF6B2 /* GreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				7D77FE3E19AA9522001CF6B2 /* SBViewController.m */,
 				7D77FE4019AA9522001CF6B2 /* Images.xcassets */,
 				7D77FE2F19AA9522001CF6B2 /* Supporting Files */,
+				7D77FE5D19AA9833001CF6B2 /* GreenViewController.h */,
+				7D77FE5E19AA9833001CF6B2 /* GreenViewController.m */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D77FE5F19AA9833001CF6B2 /* GreenViewController.m in Sources */,
 				7D77FE3519AA9522001CF6B2 /* main.m in Sources */,
 				7D77FE3F19AA9522001CF6B2 /* SBViewController.m in Sources */,
 				7D77FE3919AA9522001CF6B2 /* SBAppDelegate.m in Sources */,
